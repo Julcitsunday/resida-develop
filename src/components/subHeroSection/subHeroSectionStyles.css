@@ -1,0 +1,33 @@
+.sub_hero_section_container{
+    height: 236px;
+    color: #fff;
+    padding: 0 10rem;
+    overflow: hidden;
+    display: flex;
+    background: #1F4B43;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.sub_hero_text{
+text-align: left;
+}
+
+
+
+@media(max-width: 841px){
+    .sub_hero_section_container{
+     padding: 0 2rem;
+     flex-direction: column;
+     justify-content: center;
+     gap: 12px;
+    }
+    .sub_hero_text h1{
+        font-size: 20px;
+        text-align: center;
+    }
+    .sub_hero_text p{
+        font-size: 20px;
+        text-align: center;
+    }
+}

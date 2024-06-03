@@ -1,5 +1,5 @@
 .hero_section_container{
-    height: 100vh;
+    height: 92vh;
     display:flex;
     justify-items: center;
     background-position: bottom;
@@ -14,16 +14,16 @@
     margin-right: auto;
 }
 .hero_section_content p{
-    font-size: 45px;
+    font-size: 48px;
     color: #1F4B43;
     text-align: center;
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
 }
-.hero_section_content span{
+.hero_section_content div{
     font-size: 14px;
+    width: 95%;
     color: #35384B;
-    padding: 0 3rem;
     text-align: center;
 }
 .btn_container{
@@ -32,6 +32,43 @@
     align-items: center;
     justify-content: center;
     gap: 24px;
-    
-    
+} 
+.btn_container .btn,
+     .btn_container .outline{
+        width: 32%;
+    }  
+
+
+@media (max-width: 841px) {
+    .hero_section_container{
+        height: 92vh;
+        display:flex;
+        justify-items: center;
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: cover; 
+    }
+    .hero_section_content{
+        width: 100%;
+        padding: 0 1rem;
+        margin-top: 0rem;
+    }
+    .hero_section_content p{
+        font-size: 35px;
+    }
+    .hero_section_content div{
+        padding: 0 1rem;
+        
+    }
+    .btn_container{
+        display: flex;
+        margin-top: 3rem;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;  
+    }
+    .btn_container .btn,
+     .btn_container .outline{
+        width: 45%;
+    }  
 }

@@ -9,8 +9,12 @@
     font-size: 14px;
     color:#1F4B43; 
     cursor: pointer;
-    font-weight: normal;
-    /* text-emphasis-color: #1F4B43; */
+    font-weight: normal ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+   
 }
 
 .outline:hover, .btn:hover{
@@ -18,7 +22,7 @@
 }
 
 .btn{
-    border: 1px solid #1F4B43;
+    border: 1px solid transparent;
     border-top-left-radius: 12px;
     border-top-right-radius:12px ;
     border-bottom-right-radius:12px ;
@@ -29,13 +33,22 @@
     color: #fff;
     cursor: pointer;
     font-weight: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
 }
 
-@media (max-width: 768px){
+.right_icon, .left_icon{
+    margin-top: 4px;
+}
+@media (max-width: 841px){
     .btn,
     .outline {
-        padding: 8px;
+        padding: 10px;
         font-size: 11px;
-
+        border-top-left-radius: 8px;
+        border-top-right-radius:8px ;
+        border-bottom-right-radius:8px ;
     }
 }

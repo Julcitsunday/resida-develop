@@ -4,6 +4,8 @@
     align-items: center;
     justify-content: space-between;
     padding: 0 10rem;
+    font-size: large;
+    font-weight: normal;
 }
 
 .header_cta_section {
@@ -11,6 +13,7 @@
     gap: 24px;
     align-items: center;
     justify-content: space-between;
+    font-size: medium;
     
 }
 
@@ -29,18 +32,13 @@ font-size: 14px;
 .mobile_logo{
     display: none;
 }
-/* .desktop_logo{
-    display: block;
-    display: flex;
-    justify-content: start;
-    align-items: start;
-}    */
+
 .menu{
     display: none;
 }
 
    /* MEDIA */
-@media (max-width: 768px) {
+@media (max-width: 841px) {
     .header_container{
         width: 100vw;
         justify-content: space-between;
