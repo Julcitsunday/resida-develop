@@ -1,0 +1,66 @@
+.fyp_container{
+    padding: 8rem 12rem;
+    background-image: url("/src/assets/fyp_background.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: contain;
+    margin-bottom: -120px;
+    
+  
+}
+
+.fyp_image_section,
+.fyp_text_section{
+    flex-basis: 50%;
+   
+}
+
+
+.fyp_image_section img {
+    height: 456px;
+    width: 544px;
+    margin-top: -150px;
+    margin-left: -600px;
+   
+}
+
+
+
+.fyp_button{
+    margin-top: -210px;
+    margin-left: 34rem;
+}
+
+.paragraph{
+    font-weight: bolder;
+    font-size: 33px;
+    color: #fff;
+    padding-block: 10rem;
+    margin-top: -520px;
+    margin-bottom: -160px;
+    margin-left: -8rem;
+    margin-right: -25%;
+    display: flex;
+
+
+    padding-top: -50px;
+    
+}
+.span{
+    font-weight: normal;
+    font-size: 33px;
+    color: #fff;
+    margin-left: -8rem;
+    margin-top: 28px;
+}
+.text_container{
+    border: solid white;
+    margin-left: 40rem;
+    margin-bottom: 10rem;
+    margin-top: 12px;
+    
+    
+    
+}
+
+

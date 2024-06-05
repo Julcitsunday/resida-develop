@@ -1,9 +1,24 @@
 import React from 'react'
 import './infoCardStyles.css'
 import info_image from "../../assets/not-just-an-app-image.jpg"
-const IndfoCard = () => {
+const InfoCard = () => {
   return (
-    <div className='info_container'>
+    // <div className='info_container'>
+    // <div className='info_inner_container'>
+    //     <div className='info_image'>
+    //      <img src={info_image} alt="info-image" className='image'/>
+    //     </div>
+    //     <div className='info_description'>
+    //       <div className='info'>
+    //       <h2 className='info_title'>{title}</h2>
+    //       <h3 className='info_subtitle'>{subtitle}</h3>
+    //         <p className='info_body'>{body}{" "}</p>
+    //       </div>
+    //     </div>
+    // </div>
+    // </div>
+
+     <div className='info_container'>
     <div className='info_inner_container'>
         <div className='info_image'>
          <img src={info_image} alt="info-image" className='image'/>
@@ -21,4 +36,4 @@ const IndfoCard = () => {
   )
 }
 
-export default IndfoCard;
+export default InfoCard;

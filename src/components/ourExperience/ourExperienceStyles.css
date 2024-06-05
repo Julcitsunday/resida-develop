@@ -1,0 +1,122 @@
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* main container */
+.our_experience_container{
+    gap: 12px;
+    display: flex;
+    height: 235px;
+    padding: 0 10rem;
+    background-color: #ffffff ;
+    justify-content: space-between;
+}
+
+/* box container and text */
+.box_container,
+ .text{
+    flex-basis: 50%;
+}
+
+.overflow{
+    width: 100%;
+    height: 100%;
+     gap: 12px;
+}
+
+.box_container{
+    /* border: solid; */
+    justify-content: space-between;
+}
+
+.text{
+    color: #1F4B43;
+    gap: 12px;
+    font-size: 28px;
+    font-weight: bolder;
+    text-align: left;
+    padding-left: 2rem;
+  
+}
+
+
+  /* boxes */
+.box1,
+ .box2,
+ .box3{
+    border-radius: 10px;
+    overflow: hidden;
+    height: 60%;
+}
+
+.box1 img,
+.box2 img,
+.box3 img {
+ width: 100%;
+ height: 100%;
+ object-fit: cover;
+ }
+
+.box1{
+flex-basis: 26%;
+}
+.box2{
+flex-basis: 39%;  
+}
+.box3{
+flex-basis: 35%;
+}
+.image1{
+    width: 119px;
+    height: 116px;
+}
+.image2{
+    width: 119px;
+    height: 116px;
+}
+.image3{
+    width: 119px;
+    height: 116px;
+}
+
+@media (max-width: 841px){
+  .our_experience_container{
+    flex-direction: column;
+    height: max-content;  
+    padding: 0 1rem;
+    gap: 6px;
+  }
+ 
+  .box_container{
+    overflow-x: scroll;
+    height: max-content;
+    width: 100%;
+  }
+
+  .overflow{
+    width: max-content;
+    height: max-content;
+  }
+  .text{ 
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    padding-left: 0rem;
+  }
+  .box1,
+ .box2,
+ .box3{
+    height: 150px;
+    width: 100%;
+    border-radius: 10px;
+}
+.box1 img,
+.box2 img,
+.box3 img {
+ width: 100%;
+ height: 100%;
+ object-fit: cover ;
+ }
+
+}
