@@ -2,13 +2,14 @@ import React from 'react'
 import "./accomodationStyle.css";
 import Button from 'shared/button';
 import house from "assets/acc_pic.png";
-import sticker from "assets/available.png";
-import curve from "assets/arrow.png";
-import sticker2 from "assets/1000+.png";
+import circle from "assets/lil-proper.png";
 const Accomodation = () => {
   return (
     <div className='acc_container'>
         <div className='text_acc'>
+        <div className='ccc'>
+              <img src={circle} alt="info" className="c" />
+              </div>
             <div className='main_text'>
              <h2 className='acc_title'>Do you have a property?</h2>
              <h3 className='acc_subtitle'>Provide accommodation
@@ -19,7 +20,7 @@ here in Lagos</h3>
           <Button style={{
             backgroundColor:'#DBA94D',
             color:'#1F4B43',
-            padding: "10px 12px",
+            padding: "15px 12px",
             width: "256px",
             height: "52px",
             }}
@@ -34,11 +35,7 @@ here in Lagos</h3>
         </div>
 
         <div className='pictures'>
-        <img src={sticker} alt="info" className="s" />
-        <img src={curve} alt="info" className="l" />
-        <img src={sticker2} alt="info" className="s2" />
         <img src={house} alt="info" className="h" />
-        
         </div>
     </div>
   )

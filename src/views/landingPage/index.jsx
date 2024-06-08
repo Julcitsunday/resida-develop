@@ -9,6 +9,8 @@ import FindYourSpace from 'components/findYourSpace';
 import  Comprehensive  from 'shared/comprehensive';
 import FeaturedProperties from 'components/featuredProperties';
 import Accomodation from 'shared/accomodation';
+import Discover from 'components/discover';
+// import FindHomes from 'shared/findHomes';
 const LandingPage = () => {
   return (
     <div>
@@ -21,6 +23,8 @@ const LandingPage = () => {
       <Comprehensive />
       <FeaturedProperties />
       <Accomodation />
+      <Discover />
+      {/* <FindHomes /> */}
     </div>
   )
 }

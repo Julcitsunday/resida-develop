@@ -1,8 +1,10 @@
 .comp_container{
-    height: 575px;
+    height: 652px;
+    /* height: auto; */
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
     
 }
 
@@ -10,15 +12,15 @@
     width: 483px;
     margin-right: 10rem;
     text-align: start;
-    margin-top: 12rem;
+    margin-top: 2rem;
 }
 
 .image_guide{
     height: 575px;
     width: 471px;
     margin-left: 2rem;
-    margin-top: 8px;
-    margin-bottom: -6px;
+    margin-top: 24px;
+    margin-bottom: 0;
 }
 
 .title, 
@@ -39,4 +41,5 @@
     font-size: 16px;
     font-weight: medium;
     margin-bottom: 20px;
+    margin-top: 35px;
 }

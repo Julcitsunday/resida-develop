@@ -14,9 +14,16 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
 
 .discover_div h2 {
     color: white;
     padding: 12px;
+    font-size: 50px;
+}
+.text{
+    padding-right: 20px;
+    width: 640px;
+    text-align: center;
 }

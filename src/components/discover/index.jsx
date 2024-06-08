@@ -2,12 +2,13 @@ import React from "react";
 import "./discoverStyle.css";
 import Button from "shared/button";
 
+
 const Discover = () => {
   return (
     <>
       <section className="discover_container">
         <div className="discover_div">
-          <h2>Discover a place you'll love to live</h2>
+          <h2 className="text">Discover a place you'll love to live</h2>
           <Button
             style={{
               backgroundColor: "#dba94d",
@@ -15,6 +16,7 @@ const Discover = () => {
               padding: "7px 8px",
               borderRadius: "8px",
               width: "180px",
+              height: "54px", 
               marginTop: "12px",
             }}
             btnName={"Download App"}
