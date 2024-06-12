@@ -1,9 +1,16 @@
-import React from 'react'
-// import './contactStyles.css';
-const contactPage = () => {
+import React from 'react';
+import Header from 'shared/header';
+import './contactStyles.css';
+import MainPage from "components/mainPage";
+import Footer from 'shared/footer';
+const ContactPage = () => {
   return (
-    <div>contactPage</div>
+    <div>
+      <Header />
+      <MainPage />
+      <Footer />
+    </div>
   )
 }
 
-export default contactPage;
+export default ContactPage;

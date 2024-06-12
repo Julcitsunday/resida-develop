@@ -4,9 +4,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* background: #BBDBF3;
-    fill: 30%; */
-
+    /* background-color: rgba(187, 219, 243, 0.2); */
     
 
 }
@@ -82,13 +80,94 @@ margin-left: 2rem;
 
 @media(max-width: 841px){
     .info_container {
-    height: 502px;
-    overflow-x: hidden;
+        height: 502px;
+        overflow-x: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        /* background: #BBDBF3;
+        fill: 30%; */
+    
+        
+    
+    }
+    .info_inner_container {
+        width: 100%;
+        height: 360px;
+        margin: 5px auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    } 
+    
+    .info_Description {
+       width: full;
+       height: 70vh;
+       display: flex;
+       flex-direction: column;
+    
+    }
+    
+    .info {
+    height: 218px;
+    max-width: fit-content;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    /* background: #BBDBF3;
-    fill: 30%; */
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 2rem;
+    }
+    
+    .info_title {
+        margin-left: 5rem;
+        font-size: lighter;
+        font-weight: bold;
+        font-size: 24px;
+        color: #1f4b43;
+        margin-bottom: 5px;
+    }
+    
+    .info_subtitle {
+        font-size: 18px;
+        font-weight: 450;
+        margin-bottom: 5px;
+        margin-left: 5rem;
+        color: #1f4b43;
+    }
+    
+    .info_body {
+        text-align: justify;
+        display: flex;
+        align-items: flex-start;
+        margin-right: 29%;
+        margin-left: 5rem;
+        font-style: normal;
+        font-size: 16px;
+        padding-right: 1rem;
+        color: 141115;
+    }
+    
+    .info_image {
+      width: 90vh;
+    }
+    
+    .image {
+       height: 400px;
+       width: 500px;
+      padding-top: 4rem;
+      padding-bottom: 5px;
+      padding-left: 10rem;
+    }
+
+
+
+
+
+
+    /* .info_container {
+    height: max-content;
+    flex-direction: column;
+    gap: 6px;
 
     
 
@@ -158,6 +237,6 @@ margin-left: 2rem;
    padding-top: 4rem;
    padding-bottom: 5px;
    padding-left: 10rem;
- }
+ } */
  
 }

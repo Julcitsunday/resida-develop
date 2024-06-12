@@ -12,10 +12,7 @@ const FeaturedProperties = () => {
       <section className="feature_property_div">
         <h2>Featured Properties</h2>
         <p>
-          Explore our curated selection of premier properties, meticulously
-          chosen to suit every lifestyle and budget. From luxurious penthouses
-          to cozy family homes, our featured listings showcase the best of Lagos
-          living.
+         Explore our curated selection of premier properties, meticulously chosen to suit every lifestyle and budget. From luxurious penthouses to cozy family homes, our featured listings showcase the best of Lagos living.
         </p>
       </section>
       <section className="featured_card_div">
@@ -26,7 +23,7 @@ const FeaturedProperties = () => {
           buttons={["Duplexes", "Bungalows", "Self-contains"]}
           price={"From NGN500,000/year"}
         />
-        <FeaturedCard 
+        <FeaturedCard
           title={"Naanchin Homes"}
           icons={<FaHeart color="#797b7c" size={14} />}
           image={fp2}

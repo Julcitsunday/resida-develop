@@ -1,7 +1,8 @@
 import React from 'react'
-import HeroSection from "components/heroSection";
-import Header from "shared/header";
 import './landingPageStyles.css';
+
+import Header from "shared/header";
+import HeroSection from "components/heroSection";
 import SubHeroSection from 'components/subHeroSection';
 import InfoCard from 'components/infoCard';
 import OurExperience from 'components/ourExperience';
@@ -10,10 +11,15 @@ import  Comprehensive  from 'shared/comprehensive';
 import FeaturedProperties from 'components/featuredProperties';
 import Accomodation from 'shared/accomodation';
 import Discover from 'components/discover';
-// import FindHomes from 'shared/findHomes';
+import FindHomes from 'shared/findHomes';
+import OfficeSpace from 'components/officeSpace';
+import AppStores from 'components/appstores';
+import Footer from 'shared/footer';
+
 const LandingPage = () => {
   return (
     <div>
+      
       <Header />
       <HeroSection />
       <SubHeroSection />
@@ -24,7 +30,10 @@ const LandingPage = () => {
       <FeaturedProperties />
       <Accomodation />
       <Discover />
-      {/* <FindHomes /> */}
+      <FindHomes />
+      <OfficeSpace />
+      <AppStores />
+      <Footer />
     </div>
   )
 }

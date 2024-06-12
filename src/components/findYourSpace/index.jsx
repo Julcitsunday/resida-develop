@@ -20,11 +20,12 @@ const FindYourSpace = () => {
            
             <div className='fyp_button'>
             <Button style={{
-                borderRadius: "10px",
+                borderRadius: "8px",
                 backgroundColor: "white",
                 color:"#1b2056",
-                padding:"12px 34px",
+                padding:"15px 46px",
                 width: "33",
+                
             }} btnName={"Download app"}/>
             </div>
            

@@ -6,7 +6,7 @@ const FeaturedCard = ({ title, image, icons, price, buttons }) => {
     <section>
       <figure>
         <div className="image_div">
-          <img src={image} alt="featured-card-img" />
+          <img src={image} alt="featured-card-img" className="fcp"/>
         </div>
         <figcaption>
           <div className="title_div">

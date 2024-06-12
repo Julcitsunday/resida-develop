@@ -1,39 +1,26 @@
 import React from 'react'
-// import FeaturedCard from 'shared/featuredCard';
-// import lekki from "assets/lekki.png";
-// import agege from "assets/agege.png";
-// import gbagada from "assets/gbagada.jpg";
-// import obalende from "assets/obalende.jpg";
-// import yaba from "assets/yaba.jpg";
+import "./findHomesstyle.css";
+import lekki from "assets/lekki.png";
+import their from "assets/ao.jpg";
+import those from "assets/gy.jpg";
 
-import places from "assets/5.png";
+
 const FindHomes = () => {
   return (
-    <main>
+    <main className='container_findhome'>
         <section className='find_text'>
-         <div>
+         <div className='finding_text'>
             <h2>Find homes in popular neighbourhooods</h2>
             <p>Apartments in Lekki, Obalende, Agege & Yaba </p>
          </div>
         </section>
 
         <section className='all_card'>
-        <img src={places} alt="info-image" className='image_5'/>
-            {/* <FeaturedCard 
-            image={lekki}
-            />
-            <FeaturedCard 
-            image={agege}
-            />
-            <FeaturedCard
-             image={gbagada}
-            />
-            <FeaturedCard
-             image={obalende}
-            />
-            <FeaturedCard
-             image={yaba}
-            /> */}
+            <div className='my_place'>
+            <img src={lekki} alt="info-image" className='in_1'/>
+            <img src={their} alt="info-image" className='in_their'/>
+            <img src={those} alt="info-image" className='in_those'/>
+           </div>
         </section>
     </main>
   )

@@ -8,9 +8,10 @@
 /* Image Styles */
 .image_div img {
     width: 100%;
-    height: 40vh;
+    height: 10vh;
     object-fit: cover;
     border-radius: 6px;
+
 }
 
 /* Figure Styles */
@@ -18,7 +19,8 @@ figure {
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: left; */
+    /* align-items: left; */
 }
 
 /* Figcaption Styles */
@@ -38,7 +40,9 @@ figcaption {
     justify-content: space-between;
     align-items: start;
     margin-bottom: -3rem;
-    /* padding-right: 3rem; */
+    padding-right: -5rem;
+    margin-top: 0;
+    text-align: left;
 }
 
 .title_div p {
@@ -80,11 +84,14 @@ button {
 .price {
     font-size: 12px;
     margin-left: 4px;
-    margin-top: 4px;
+    margin-top: -20px;
     text-align: start;
     color: #909090;
+    text-align: left;
 }
-
+.fcp{
+    max-height: 252px;
+}
 /* Responsive Styles */
 @media (max-width: 841px) {
     figcaption {

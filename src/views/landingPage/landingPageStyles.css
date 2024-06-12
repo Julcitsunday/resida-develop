@@ -1,0 +1,6 @@
+@media (max-width: 841px) {
+    *{
+        max-width: 100%;
+        overflow-x: auto;
+    }
+}

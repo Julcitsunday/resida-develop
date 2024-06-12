@@ -1,34 +1,36 @@
 .fyp_container{
+    height: 507px;
     padding: 8rem 12rem;
     background-image: url("/src/assets/fyp_background.jpg");
     background-repeat: no-repeat;
     background-position: center top;
-    background-size: contain;
+    background-size: cover;
     margin-bottom: -120px;
     
   
 }
 
-.fyp_image_section,
+/* .fyp_image_section,
 .fyp_text_section{
     flex-basis: 50%;
    
-}
+} */
 
 
 .fyp_image_section img {
-    height: 456px;
-    width: 544px;
+    height: 500px;
+    width: 700px;
     margin-top: -150px;
-    margin-left: -600px;
+    margin-left: -620px;
    
 }
 
 
 
 .fyp_button{
-    margin-top: -210px;
-    margin-left: 34rem;
+    margin-top: -135px;
+    margin-bottom: 10rem;
+    margin-left: 32rem;
 }
 
 .paragraph{
@@ -37,30 +39,102 @@
     color: #fff;
     padding-block: 10rem;
     margin-top: -520px;
-    margin-bottom: -160px;
+    margin-bottom: -150px;
     margin-left: -8rem;
     margin-right: -25%;
     display: flex;
-
-
-    padding-top: -50px;
+    padding-top: -10px;
+    padding-right: 3rem;
+    text-align: left;
     
 }
 .span{
-    font-weight: normal;
     font-size: 33px;
     color: #fff;
-    margin-left: -8rem;
-    margin-top: 28px;
+    font-weight: normal;
+    margin-top: -10rem;
+    margin-bottom: -10rem;
+    margin-left: -13rem;
 }
 .text_container{
-    border: solid white;
+    /* border: solid white; */
     margin-left: 40rem;
     margin-bottom: 10rem;
     margin-top: 12px;
     
     
     
+}
+
+
+@media (max-width: 841px) {
+    .fyp_container{
+       flex-direction: column;
+       height: 50%;
+        padding: 0;
+      
+    }
+    
+    /* .fyp_image_section,
+    .fyp_text_section{
+        
+
+       
+    } */
+    
+    
+    .fyp_image_section img {
+        /* height: 400px; */
+        /* width: 10vw; */
+        /* margin-top: -120px; */
+        margin-top: -50px;
+        margin-left: -200px;
+        width: 500px;
+       
+    }
+    
+    
+    
+    .fyp_button{
+        margin-top: -135px;
+        margin-bottom: 10rem;
+        margin-left: 32rem;
+    }
+    
+    .paragraph{
+        font-weight: bolder;
+        font-size: 33px;
+        color: #fff;
+        margin-right: 50px;
+        /* margin-left: 700rem; */
+        /* padding-block: 10rem;
+        margin-top: -520px;
+        margin-bottom: -150px;
+        margin-left: -8rem;
+        margin-right: -25%;
+        display: flex;
+        padding-top: -10px;
+        padding-right: 3rem;
+        text-align: left; */
+        
+    }
+    .span{
+        font-size: 33px;
+        color: #fff;
+        font-weight: normal;
+        margin-top: -10rem;
+        margin-bottom: -10rem;
+        margin-left: -13rem;
+    }
+    .text_container{
+        /* border: solid white; */
+        margin-left: 40rem;
+        margin-bottom: 10rem;
+        margin-top: 12px;
+        
+        
+        
+    }
 }
 
 
