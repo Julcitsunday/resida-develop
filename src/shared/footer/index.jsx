@@ -1,5 +1,5 @@
 import React from "react";
-import "./footerStyle.css";
+import "./footerStyles.css";
 import {
   FaFacebookF,
   FaInstagram,
